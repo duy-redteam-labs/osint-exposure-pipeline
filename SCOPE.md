@@ -20,6 +20,7 @@ This project is for training and portfolio development only.
 - Technology fingerprinting from publicly observable responses
 - Documentation of metadata, route exposure, and technical clues
 - Local processing, normalization, scoring, and reporting of collected evidence
+- automated collection of public responses and client-side artifacts within the lab scope
 
 ## Prohibited Activities
 - Exploitation of vulnerabilities

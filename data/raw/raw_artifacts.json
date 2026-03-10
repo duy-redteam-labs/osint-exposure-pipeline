@@ -1,0 +1,122 @@
+[
+  {
+    "target": "http://192.168.168.30:3000",
+    "artifact_type": "javascript",
+    "artifact_name": "cookieconsent.min.js",
+    "artifact_url": "http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js",
+    "source": "automated_asset_extraction",
+    "evidence": "Public JavaScript asset observed in HTML source",
+    "notes": "Useful for identifying client-side structure and technology clues",
+    "timestamp": "2026-03-10T10:25:02.947679+00:00"
+  },
+  {
+    "target": "http://192.168.168.30:3000",
+    "artifact_type": "javascript",
+    "artifact_name": "jquery.min.js",
+    "artifact_url": "http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
+    "source": "automated_asset_extraction",
+    "evidence": "Public JavaScript asset observed in HTML source",
+    "notes": "Useful for identifying client-side structure and technology clues",
+    "timestamp": "2026-03-10T10:25:02.947679+00:00"
+  },
+  {
+    "target": "http://192.168.168.30:3000",
+    "artifact_type": "javascript",
+    "artifact_name": "runtime.js",
+    "artifact_url": "http://192.168.168.30:3000/runtime.js",
+    "source": "automated_asset_extraction",
+    "evidence": "Public JavaScript asset observed in HTML source",
+    "notes": "Useful for identifying client-side structure and technology clues",
+    "timestamp": "2026-03-10T10:25:02.947679+00:00"
+  },
+  {
+    "target": "http://192.168.168.30:3000",
+    "artifact_type": "javascript",
+    "artifact_name": "polyfills.js",
+    "artifact_url": "http://192.168.168.30:3000/polyfills.js",
+    "source": "automated_asset_extraction",
+    "evidence": "Public JavaScript asset observed in HTML source",
+    "notes": "Useful for identifying client-side structure and technology clues",
+    "timestamp": "2026-03-10T10:25:02.947679+00:00"
+  },
+  {
+    "target": "http://192.168.168.30:3000",
+    "artifact_type": "javascript",
+    "artifact_name": "vendor.js",
+    "artifact_url": "http://192.168.168.30:3000/vendor.js",
+    "source": "automated_asset_extraction",
+    "evidence": "Public JavaScript asset observed in HTML source",
+    "notes": "Useful for identifying client-side structure and technology clues",
+    "timestamp": "2026-03-10T10:25:02.947679+00:00"
+  },
+  {
+    "target": "http://192.168.168.30:3000",
+    "artifact_type": "javascript",
+    "artifact_name": "main.js",
+    "artifact_url": "http://192.168.168.30:3000/main.js",
+    "source": "automated_asset_extraction",
+    "evidence": "Public JavaScript asset observed in HTML source",
+    "notes": "Useful for identifying client-side structure and technology clues",
+    "timestamp": "2026-03-10T10:25:02.947679+00:00"
+  },
+  {
+    "target": "http://192.168.168.30:3000",
+    "artifact_type": "linked_resource",
+    "artifact_name": "favicon_js.ico",
+    "artifact_url": "http://192.168.168.30:3000/assets/public/favicon_js.ico",
+    "source": "automated_asset_extraction",
+    "evidence": "Public linked asset observed in HTML source",
+    "notes": "Useful for documenting client-side artifacts and referenced resources",
+    "timestamp": "2026-03-10T10:25:02.947679+00:00"
+  },
+  {
+    "target": "http://192.168.168.30:3000",
+    "artifact_type": "stylesheet",
+    "artifact_name": "cookieconsent.min.css",
+    "artifact_url": "http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css",
+    "source": "automated_asset_extraction",
+    "evidence": "Public linked asset observed in HTML source",
+    "notes": "Useful for documenting client-side artifacts and referenced resources",
+    "timestamp": "2026-03-10T10:25:02.947679+00:00"
+  },
+  {
+    "target": "http://192.168.168.30:3000",
+    "artifact_type": "stylesheet",
+    "artifact_name": "styles.css",
+    "artifact_url": "http://192.168.168.30:3000/styles.css",
+    "source": "automated_asset_extraction",
+    "evidence": "Public linked asset observed in HTML source",
+    "notes": "Useful for documenting client-side artifacts and referenced resources",
+    "timestamp": "2026-03-10T10:25:02.947679+00:00"
+  },
+  {
+    "target": "http://192.168.168.30:3000",
+    "artifact_type": "metadata",
+    "artifact_name": "page_title",
+    "artifact_url": "http://192.168.168.30:3000",
+    "source": "automated_html_parsing",
+    "evidence": "Observed page title: OWASP Juice Shop",
+    "notes": "Supports metadata exposure assessment",
+    "timestamp": "2026-03-10T10:25:02.947679+00:00"
+  },
+  {
+    "target": "http://192.168.168.30:3000",
+    "artifact_type": "metadata",
+    "artifact_name": "description",
+    "artifact_url": "http://192.168.168.30:3000",
+    "source": "automated_html_parsing",
+    "evidence": "Observed meta tag content: Probably the most modern and sophisticated insecure web application",
+    "notes": "Supports metadata exposure assessment",
+    "timestamp": "2026-03-10T10:25:02.947679+00:00"
+  },
+  {
+    "target": "http://192.168.168.30:3000",
+    "artifact_type": "metadata",
+    "artifact_name": "viewport",
+    "artifact_url": "http://192.168.168.30:3000",
+    "source": "automated_html_parsing",
+    "evidence": "Observed meta tag content: width=device-width, initial-scale=1",
+    "notes": "Supports metadata exposure assessment",
+    "timestamp": "2026-03-10T10:25:02.947679+00:00"
+  }
+]

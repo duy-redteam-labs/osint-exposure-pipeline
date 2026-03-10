@@ -1,0 +1,32 @@
+[
+  {
+    "target": "http://192.168.168.30:3000",
+    "path": "/",
+    "method": "GET",
+    "status_code": 200,
+    "source": "automated_http_collection",
+    "observed_headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "server": "",
+      "x-powered-by": "",
+      "x-aspnet-version": "",
+      "x-runtime": "",
+      "x-generator": "",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "cache-control": "public, max-age=0",
+      "last-modified": "Tue, 10 Mar 2026 10:22:10 GMT",
+      "etag": "W/\"1252f-19cd744b7d6\"",
+      "content-length": "",
+      "vary": "Accept-Encoding",
+      "date": "Tue, 10 Mar 2026 10:25:03 GMT",
+      "connection": "keep-alive",
+      "keep-alive": "timeout=5",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "feature-policy": "payment 'self'"
+    },
+    "notes": "Homepage response header observation collected automatically",
+    "timestamp": "2026-03-10T10:25:02.946702+00:00"
+  }
+]

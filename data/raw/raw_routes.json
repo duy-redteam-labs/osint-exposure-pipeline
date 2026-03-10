@@ -1,0 +1,20 @@
+[
+  {
+    "target": "http://192.168.168.30:3000",
+    "route": "/",
+    "observation_type": "visible_page",
+    "source": "automated_html_parsing",
+    "evidence": "Homepage is publicly reachable",
+    "notes": "Landing page of the application",
+    "timestamp": "2026-03-10T10:25:02.946702+00:00"
+  },
+  {
+    "target": "http://192.168.168.30:3000",
+    "route": "/public/favicon_js.ico",
+    "observation_type": "path_clue",
+    "source": "automated_html_parsing",
+    "evidence": "Route-like string observed in public HTML",
+    "notes": "Useful as a basic route clue for analyst review",
+    "timestamp": "2026-03-10T10:25:02.947679+00:00"
+  }
+]

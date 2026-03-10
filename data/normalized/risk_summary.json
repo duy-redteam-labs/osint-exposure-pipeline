@@ -1,0 +1,81 @@
+{
+  "total_findings": 27,
+  "by_severity": {
+    "high": 0,
+    "medium": 8,
+    "low": 19
+  },
+  "by_category": {
+    "header_disclosure": 13,
+    "public_route_exposure": 2,
+    "client_side_artifact": 9,
+    "metadata_exposure": 3
+  },
+  "top_findings": [
+    {
+      "finding_id": "F-018",
+      "target": "http://192.168.168.30:3000/runtime.js",
+      "category": "client_side_artifact",
+      "title": "Public client-side artifact observed",
+      "source": "automated_asset_extraction",
+      "evidence": "javascript artifact: runtime.js (http://192.168.168.30:3000/runtime.js)",
+      "confidence": "high",
+      "severity": "medium",
+      "risk_score": 50,
+      "notes": "Client-side artifact may assist application profiling.",
+      "timestamp": "2026-03-10T10:25:02.947679+00:00"
+    },
+    {
+      "finding_id": "F-020",
+      "target": "http://192.168.168.30:3000/vendor.js",
+      "category": "client_side_artifact",
+      "title": "Public client-side artifact observed",
+      "source": "automated_asset_extraction",
+      "evidence": "javascript artifact: vendor.js (http://192.168.168.30:3000/vendor.js)",
+      "confidence": "high",
+      "severity": "medium",
+      "risk_score": 50,
+      "notes": "Client-side artifact may assist application profiling.",
+      "timestamp": "2026-03-10T10:25:02.947679+00:00"
+    },
+    {
+      "finding_id": "F-021",
+      "target": "http://192.168.168.30:3000/main.js",
+      "category": "client_side_artifact",
+      "title": "Public client-side artifact observed",
+      "source": "automated_asset_extraction",
+      "evidence": "javascript artifact: main.js (http://192.168.168.30:3000/main.js)",
+      "confidence": "high",
+      "severity": "medium",
+      "risk_score": 50,
+      "notes": "Client-side artifact may assist application profiling.",
+      "timestamp": "2026-03-10T10:25:02.947679+00:00"
+    },
+    {
+      "finding_id": "F-016",
+      "target": "http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js",
+      "category": "client_side_artifact",
+      "title": "Public client-side artifact observed",
+      "source": "automated_asset_extraction",
+      "evidence": "javascript artifact: cookieconsent.min.js (http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js)",
+      "confidence": "high",
+      "severity": "medium",
+      "risk_score": 44,
+      "notes": "Client-side artifact may assist application profiling.",
+      "timestamp": "2026-03-10T10:25:02.947679+00:00"
+    },
+    {
+      "finding_id": "F-017",
+      "target": "http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js",
+      "category": "client_side_artifact",
+      "title": "Public client-side artifact observed",
+      "source": "automated_asset_extraction",
+      "evidence": "javascript artifact: jquery.min.js (http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js)",
+      "confidence": "high",
+      "severity": "medium",
+      "risk_score": 44,
+      "notes": "Client-side artifact may assist application profiling.",
+      "timestamp": "2026-03-10T10:25:02.947679+00:00"
+    }
+  ]
+}
